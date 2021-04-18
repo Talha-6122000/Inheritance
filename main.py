@@ -20,3 +20,6 @@ class Archar(Wizard):
  
 wizard1=Archar("Talha",100)
 wizard1.attack()
+
+# To check what object belongs to what class we do like
+print(isinstance(wizard1,Wizard))
